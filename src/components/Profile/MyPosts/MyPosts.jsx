@@ -2,10 +2,10 @@ import React from 'react';
 import s from './MyPosts.module.css';
 import Post from "./Post/Post";
 
-const MyPosts= () =>{
+const MyPosts=() => {
     return (
         <div>
-           My Posts
+            My Posts
             <div>
                 <textarea></textarea>
                 <button>Add post</button>
