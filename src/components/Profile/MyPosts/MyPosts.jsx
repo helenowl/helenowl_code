@@ -11,7 +11,8 @@ const MyPosts=() => {
                 <button>Add post</button>
             </div>
             <div>
-                <Post/>
+                <Post message = 'Как ты ?' kl = '15'/>
+                <Post message = 'Хорошо выглядишь' kl = '20'/>
             </div>
         </div>
 
