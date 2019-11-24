@@ -1,6 +1,8 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+
+
 }
 
 .dialogsItems {
@@ -8,19 +10,38 @@
 
 }
 
-.dialog a{
+.dialog {
+    padding: 5px;
+}
+
+.dialog a {
     color: black;
-    text-decoration: none ;
+    text-decoration: none;
+    padding-left: 10px;
+
 }
 
 .dialog a.activeLink {
     font-weight: bold;
 }
 
+.img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+
+}
+
 .messages {
+    display: grid;
+    grid-template-rows: 10fr 2fr;
     padding: 10px;
+    border-left: 3px solid cadetblue;
 }
 
 .message {
+
+}
+.send{
 
 }
