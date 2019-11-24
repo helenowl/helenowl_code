@@ -1,18 +1,14 @@
 import React from 'react';
 import s from './Profile.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
-const Profile=() => {
+const Profile=(props) => {
+
+
     return <div>
-        <div>
-            <img className={s.fon}
-                 src='http://arte1.ru/images/detailed/2/12449.jpg'/>
-        </div>
-        <div>
-            <img className={s.img}
-                 src='https://99px.ru/sstorage/56/2017/09/image_562009170714251960368.jpg'/>
-        </div>
-        <MyPosts/>
+        <ProfileInfo/>
+        <MyPosts postsMap={props.state.posts}/>
     </div>
 };
 
